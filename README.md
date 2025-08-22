@@ -34,22 +34,23 @@ This project is an AI-powered web agent that takes a URL and user instruction (e
 
 2. **Create virtual env**
 
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
+   python -m venv .venv
+   source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
 4. **Install dependencies**
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 5. **Create .env File**
 
-GEMINI_API_KEY=your_google_api_key
-PERSPECTIVE_API_KEY=your_perspective_api_key
+   GEMINI_API_KEY=your_google_api_key
+   PERSPECTIVE_API_KEY=your_perspective_api_key
 
 6. **Start FastAPI Server** / **I have uploaded this app on render.com, so that not need to run the backend every time locally**
-uvicorn app:app --reload
+
+   uvicorn app:app --reload
 
 8. **Start Streamlit app**
 
-streamlit run streamlit_app.py
+   streamlit run streamlit_app.py
 
