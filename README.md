@@ -51,5 +51,5 @@ uvicorn app:app --reload
 
 8. **Start Streamlit app**
 
-streamlit run app_ui.py
+streamlit run streamlit_app.py
 
