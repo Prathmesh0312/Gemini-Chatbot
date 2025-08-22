@@ -33,19 +33,23 @@ This project is an AI-powered web agent that takes a URL and user instruction (e
    cd genai-web-agent
 
 2. **Create virtual env**
+
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
-3. **Install dependencies**
+4. **Install dependencies**
+
 pip install -r requirements.txt
 
-4. **Create .env File**
+5. **Create .env File**
+
 GEMINI_API_KEY=your_google_api_key
 PERSPECTIVE_API_KEY=your_perspective_api_key
 
-5. **Start FastAPI Server** / **I have uploaded this app on render.com, so that not need to run the backend every time locally**
+6. **Start FastAPI Server** / **I have uploaded this app on render.com, so that not need to run the backend every time locally**
 uvicorn app:app --reload
 
-6. **Start Streamlit app**
+8. **Start Streamlit app**
+
 streamlit run app_ui.py
 
